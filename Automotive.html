@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/61c3e49273.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Google.com</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background-color: #fff;
+      }
+      header {
+        background-image: url("car-bg.jpg");
+        display: flex;
+        background-size: cover;
+        background-position: center center;
+        min-height: 90.2vh;
+        flex-direction: column;
+        color: white;
+        align-items: flex-start;
+      }
+      .contain {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 1000px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+      }
+      nav li a:hover {
+        text-decoration: none;
+      }
+      nav .logo {
+        font-size: 2rem;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin-top: 18px;
+      }
+      nav li a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+      }
+      .highlight {
+        background-color: #00c2ff;
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+      }
+      .selected {
+        font-weight: bold;
+      }
+      header .content {
+        margin: auto;
+      }
+      .content .highlight {
+        padding: 1rem;
+      }
+      .content .highlight:hover {
+        text-decoration: none;
+      }
+      .content h1 {
+        color: #00c2ff;
+      }
+      footer {
+        background-color: #000;
+        color: #fff;
+        padding: 1.2rem;
+      }
+      footer ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        list-style-type: none;
+      }
+      footer strong {
+        color: #00c2ff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="contain">
+        <div class="logo"><i class="fas fa-car"></i>Automotive</div>
+        <ul>
+          <li><a href="#" class="selected">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="highlight">Book Appointment</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="contain">
+          <h1>Your Card Repairs</h1>
+          <p>Visit us for your service</p>
+          <a href="#" class="highlight">Book Appointment</a>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <ul class="contain">
+        <li>
+          <strong>Ourlocation</strong>
+          <p>15 street Substreet Country 6000</p>
+        </li>
+        <li>
+          <strong>Phone</strong>
+          <p>+91 515 3643 545</p>
+        </li>
+        <li>
+          <strong>Email</strong>
+          <p>automotive@carsales.com.au</p>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
